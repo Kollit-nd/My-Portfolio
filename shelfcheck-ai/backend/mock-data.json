@@ -1,0 +1,34 @@
+[
+  {
+    "product": "Amul Butter",
+    "status": "In Stock",
+    "store": "Instamart Dark Store - Koramangala",
+    "distance": "1.2 km",
+    "eta": "10 mins",
+    "keywords": ["amul", "butter"]
+  },
+  {
+    "product": "Aashirvaad Atta 5kg",
+    "status": "In Stock",
+    "store": "Instamart Dark Store - HSR Layout",
+    "distance": "2.1 km",
+    "eta": "14 mins",
+    "keywords": ["atta", "aashirvaad", "flour"]
+  },
+  {
+    "product": "Tata Salt 1kg",
+    "status": "Out of Stock",
+    "store": "Instamart Dark Store - Indiranagar",
+    "distance": "1.8 km",
+    "eta": "Unavailable",
+    "keywords": ["salt", "tata salt"]
+  },
+  {
+    "product": "Nandini Milk 1L",
+    "status": "In Stock",
+    "store": "Instamart Dark Store - BTM Layout",
+    "distance": "2.7 km",
+    "eta": "16 mins",
+    "keywords": ["milk", "nandini"]
+  }
+]

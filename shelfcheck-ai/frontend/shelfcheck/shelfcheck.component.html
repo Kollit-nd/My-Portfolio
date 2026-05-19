@@ -1,0 +1,31 @@
+<section class="shelfcheck-shell">
+  <div class="search-card">
+    <h2>ShelfCheck AI</h2>
+    <p>Instantly check nearby grocery availability with mock MCP intelligence.</p>
+
+    <div class="search-row">
+      <input
+        type="text"
+        [(ngModel)]="query"
+        placeholder="Ask anything e.g. Is Amul butter available near me?"
+        aria-label="Search product availability"
+      />
+      <button type="button" (click)="checkStock()">Submit</button>
+    </div>
+  </div>
+
+  <article class="result-card" *ngIf="result as item">
+    <div class="result-head">
+      <h3>{{ item.product }}</h3>
+      <span [class.in-stock]="item.status === 'In Stock'" [class.out-stock]="item.status === 'Out of Stock'">
+        {{ item.status }}
+      </span>
+    </div>
+
+    <ul>
+      <li><strong>Store:</strong> {{ item.store }}</li>
+      <li><strong>Distance:</strong> {{ item.distance }}</li>
+      <li><strong>ETA:</strong> {{ item.eta }}</li>
+    </ul>
+  </article>
+</section>

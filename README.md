@@ -1,3 +1,7 @@
+## 🚀 Featured Project — ShelfCheck AI 🛒
+Real-time grocery availability checker powered by Swiggy Instamart MCP + Claude AI.
+👉 [View Demo Code](./shelfcheck-ai/)
+
 # Teja's Portfolio
 
 A modern, dark-themed portfolio built with Angular showcasing my frontend development skills.
